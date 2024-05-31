@@ -71,6 +71,45 @@ h1 {
 
 }
 
+.icon {
+    font-size: small;
+}
+
+.margin-left-70 {
+
+margin-left: 70px;
+
+}
+
+.margin-left-30 {
+    margin-left: 30px;
+}
+
+.margin-left-15 {
+    margin-left: 15px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+
+
+.p-top-20 {
+    padding-top: 20px;
+}
+
+.p-top-40 {
+    padding-top: 40px;
+}
 .header-list li {
 padding: 5px;
 }
@@ -86,6 +125,10 @@ padding: 5px;
     margin-bottom: 40px;
     margin-top: 40px;
 
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
 }
 
 /*MAIN*/
@@ -112,4 +155,18 @@ padding: 5px;
 
  .border-main {
     border: 1px solid #ccc;
+ }
+
+ .text-22 {
+    font-size: 22px;
+ }
+
+ .text-15 {
+    font-size: 15px;
+ }
+
+ /*COLORS*/
+
+ .color-grey {
+    color: grey;
  }
