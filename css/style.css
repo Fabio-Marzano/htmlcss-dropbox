@@ -22,9 +22,31 @@ body {
     font-size: 14px;
 }
 
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 62px;
+  margin-bottom: 40px;
+
+    
+    
+
+}
+
 .header-container a {
     text-decoration: none;
     color: #000;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
 }
 
 .row {
@@ -57,5 +79,37 @@ padding: 5px;
     background-color: blue;
     color: white !important;
     padding: 10px 15px;
-    
+
 }
+
+.margin-bottom {
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+/*MAIN*/
+
+.background-skyblue {
+    background-color: #b4d0e7;
+}
+ .col-70 {
+    width: 70%;
+ }
+
+ .col-30 {
+    width: 30%;
+ }
+
+ .col-33 {
+    width: calc(100% / 3);
+
+ }
+
+ .jumbo-img {
+    max-width: 100%;
+ }
+
+ .border-main {
+    border: 1px solid #ccc;
+ }
