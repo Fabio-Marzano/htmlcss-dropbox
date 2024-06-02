@@ -52,8 +52,16 @@ body {
     margin: auto;
 }
 
+.text-align {
+    text-align: center;
+}
+
 .p-20 {
     padding: 20px;
+}
+
+.p-30 {
+    padding: 40px;
 }
 
 h1 {
@@ -107,6 +115,10 @@ margin-left: 70px;
 
 }
 
+.margin-left-76 {
+    margin-left: 76px;
+}
+
 .mb-blue {
     margin-left: 700px;
     
@@ -114,6 +126,10 @@ margin-left: 70px;
 
 .margin-left-400 {
     margin-left: 400px;
+}
+
+.margin-left-100 {
+    margin-left: 170px;
 }
 
 .margin-left-38 {
@@ -151,6 +167,10 @@ margin-left: 70px;
          margin-top: 30px;
 }
 
+.margin-top-50 {
+    margin-top: 50px;
+}
+
 .margin-top-40 {
     margin-top: 40px;
 }
@@ -167,6 +187,9 @@ margin-left: 70px;
     height: 900px;
 }
 
+.text-center {
+    text-align: flex-start;
+}
 
 /*PADDING*/
 
