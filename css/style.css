@@ -37,6 +37,14 @@ body {
 
  }
 
+ .col-33-2 {
+    width: calc(100% / 3);
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: calc(100% / 3);
+ }
+
  .col-img {
     width:
  }
@@ -62,6 +70,10 @@ body {
 
 .p-30 {
     padding: 40px;
+}
+
+.pa-30 {
+    padding: 30px;
 }
 
 h1 {
@@ -93,6 +105,12 @@ h1 {
 
 }
 
+.flex-center {
+    
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-start {
     justify-content: start;
     align-items: center;
@@ -102,6 +120,12 @@ h1 {
     align-items: center;
     justify-content: end;
 
+}
+
+.f-end {
+    align-items: center;
+    justify-content: end;
+    display: flex;
 }
 
 .icon {
@@ -195,8 +219,30 @@ margin-left: 70px;
     height: 900px;
 }
 
+.h-250 {
+    height: 250px;
+}
+
+.h-500 {
+    height: 400px;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.mh {
+    height: 100%;
+}
+
 .text-center {
     text-align: flex-start;
+}
+
+.logo-center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 /*PADDING*/
@@ -247,8 +293,46 @@ padding: 5px;
 .background-skyblue {
     background-color: #b4d0e7;
 }
- 
 
+.background-green {
+    background-color: #a2d39b;
+}
+ 
+.background-torino {
+    background-color: #61082b;
+}
+
+.background-napoli {
+    background-color: #0093ce;
+}
+
+.background-milan {
+    background-color: #ff1c1c;
+}
+
+.background-red {
+    background-color: #d5001f;
+}
+
+.background-lazio {
+       background-color: #b4d0e7;
+}
+
+.bg-grey {
+    background-color: #f5f5f5;
+}
+
+.color-purple {
+    color: #61082b
+}
+
+.background-blue {
+    background-color: #0d2481;
+}
+
+.background-yellow {
+    background-color: #ffd830;
+}
  .jumbo-img {
     max-width: 100%;
  }
@@ -256,6 +340,11 @@ padding: 5px;
  .partner-img {
     max-width: 100%;
     
+ }
+
+ .logo-img {
+    max-width: 100%;
+    max-height: 50%;
  }
 
  .margin-left-partner {
@@ -300,3 +389,14 @@ padding: 5px;
     width: 96%;
  }
 
+ .width-60 {
+    width: 60%;
+ }
+
+ .width-50 {
+    width: 50%;
+ }
+
+ .width-10 {
+    width: 70%;
+ }
