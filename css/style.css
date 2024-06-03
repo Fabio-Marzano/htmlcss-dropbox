@@ -116,6 +116,10 @@ h1 {
 
 }
 
+.footer-list {
+    list-style-type: none;
+}
+
 .flex-center {
     
     justify-content: center;
@@ -218,8 +222,16 @@ margin-left: 70px;
     margin-right: 5px;
 }
 
+.margin-right-50 {
+    margin-right: 50px;
+}
+
 .margin-top-20 {
     margin-top: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
 }
 
 .margin-top-30 {
@@ -256,6 +268,10 @@ margin-left: 70px;
 
 .h-500 {
     height: 400px;
+}
+
+.h-350 {
+    height: 350px;
 }
 
 .h-50 {
@@ -438,6 +454,14 @@ padding: 5px;
 
  .width-75 {
     width: 75%;
+ }
+
+ .width-15 {
+    width: 15%;
+ }
+
+ .text-white {
+    color: white;
  }
 
  
